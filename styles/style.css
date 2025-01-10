@@ -23,6 +23,14 @@
   text-decoration: none;
   border:none
 }
+/* header */
+.header{
+  background-image: url('../images/developer.png'),url('../images/header_bg.png');
+  background-size: 90px, 50%;
+background-position: 2% 30%, bottom right;
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
 
 /* nav styles */
 nav {
@@ -34,6 +42,7 @@ nav {
 .nav-title{
   font-weight: 800;
   font-size: 45px;
+  margin-left: 200px;
 }
 nav ul{
   display: flex;
@@ -49,12 +58,7 @@ nav li a{
   text-decoration: none;
   font-size: 20px;
 }
-/* header */
-.header{
-  background-image: url('../images/developer.png'),url('../images/header_bg.png');
-  background-repeat: no-repeat;
-  background-position: top left, bottom right;
-}
+
 /* banner styles */
 .banner{
   display: flex;
